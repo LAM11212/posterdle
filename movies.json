@@ -1,0 +1,271 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "fallen angels",
+            "src": "/movies/fallen-angels.jpg"
+        },
+        {
+            "id": 2,
+            "title": "the fall",
+            "src": "/movies/the-fall.jpg"
+        },
+        {
+            "id": 3,
+            "title": "oppenheimer",
+            "src": "/movies/oppenheimer.jpg"
+        },
+        {
+            "id": 4,
+            "title": "stalker",
+            "src": "/movies/stalker.jpg"
+        },
+        {
+            "id": 5,
+            "title": "in the mood for love",
+            "src": "/movies/in_the_mood_for_love.jpg"
+        },
+        {
+            "id": 6,
+            "title": "woman in the dunes",
+            "src": "/movies/woman_in_the_dunes.jpg"
+        },
+        {
+            "id": 7,
+            "title": "the face of another",
+            "src": "/movies/the_face_of_another.jpg"
+        },
+        {
+            "id": 8,
+            "title": "marty supreme",
+            "src": "/movies/marty_supreme.jpg"
+        },
+        {
+            "id": 9,
+            "title": "one battle after another",
+            "src": "/movies/one_battle_after_another.jpg"
+        },
+        {
+            "id": 10,
+            "title": "everything everywhere all at once",
+            "src": "/movies/everything_everywhere_all_at_once.jpg"
+        },
+        {
+            "id": 11,
+            "title": "a brighter summer day",
+            "src": "/movies/a_brighter_summer_day.jpg"
+        },
+        {
+            "id": 12,
+            "title": "yi yi",
+            "src": "/movies/yi_yi.jpg"
+        },
+        {
+            "id": 13,
+            "title": "i saw the tv glow",
+            "src": "/movies/i_saw_the_tv_glow.jpg"
+        },
+        {
+            "id": 14,
+            "title": "moonlight",
+            "src": "/movies/moonlight.jpg"
+        },
+        {
+            "id": 15,
+            "title": "perfect days",
+            "src": "/movies/perfect_days.jpg"
+        },
+        {
+            "id": 16,
+            "title": "nobody knows",
+            "src": "/movies/nobody_knows.jpg"
+        },
+        { 
+            "id": 17,
+            "title": "hamnet",
+            "src": "/movies/hamnet.jpg"
+        },
+        {
+            "id": 18,
+            "title": "nosferatu",
+            "src": "/movies/nosferatu.jpg"
+        },
+        {
+            "id": 19,
+            "title": "the banshees of inisherin",
+            "src": "/movies/the_banshees_of_inisherin.jpg"
+        },
+        {
+            "id": 20,
+            "title": "morbius",
+            "src": "/movies/morbius.jpg"
+        },
+        {
+            "id": 21,
+            "title": "parasite",
+            "src": "/movies/parasite.jpg"
+        },
+        {
+            "id": 22,
+            "title": "first reformed",
+            "src": "/movies/first_reformed.jpg"
+        },
+
+        { 
+            "id": 23,
+            "title": "hamnet",
+            "src": "/movies/hamnet.jpg"
+        },
+        {
+            "id": 24,
+            "title": "nosferatu",
+            "src": "/movies/nosferatu.jpg"
+        },
+        {
+            "id": 25,
+            "title": "the banshees of inisherin",
+            "src": "/movies/the_banshees_of_inisherin.jpg"
+        },
+        {
+            "id": 26,
+            "title": "morbius",
+            "src": "/movies/morbius.jpg"
+        },
+        {
+            "id": 27,
+            "title": "parasite",
+            "src": "/movies/parasite.jpg"
+        },
+        {
+            "id": 28,
+            "title": "first reformed",
+            "src": "/movies/first_reformed.jpg"
+        },
+        { 
+            "id": 29,
+            "title": "django unchained",
+            "src": "/movies/django_unchained.jpg"
+        },
+        {
+            "id": 30,
+            "title": "the tragedy of man",
+            "src": "/movies/the_tragedy_of_man.jpg"
+        },
+        {
+            "id": 31,
+            "title": "the last unicorn",
+            "src": "/movies/the_last_unicorn.jpg"
+        },
+        {
+            "id": 32,
+            "title": "2046",
+            "src": "/movies/2046.jpg"
+        },
+        {
+            "id": 33,
+            "title": "happy together",
+            "src": "/movies/happy_together.jpg"
+        },
+        {
+            "id": 34,
+            "title": "chungking express",
+            "src": "/movies/chungking_express.jpg"
+        },     
+        { 
+            "id": 35,
+            "title": "2001 a space odyssey",
+            "src": "/movies/2001.jpg"
+        },
+        {
+            "id": 36,
+            "title": "citizen kane",
+            "src": "/movies/kane.jpg"
+        },
+        {
+            "id": 37,
+            "title": "mulholland drive",
+            "src": "/movies/mulholland.jpg"
+        },
+        {
+            "id": 38,
+            "title": "blue velvet",
+            "src": "/movies/blue_velvet.jpg"
+        },
+        {
+            "id": 39,
+            "title": "vertigo",
+            "src": "/movies/vertigo.jpg"
+        },
+        {
+            "id": 40,
+            "title": "persona",
+            "src": "/movies/persona.jpg"
+        },
+
+
+
+
+        { 
+            "id": 41,
+            "title": "the seventh seal",
+            "src": "/movies/seventh_seal.jpg"
+        },
+        {
+            "id": 42,
+            "title": "aftersun",
+            "src": "/movies/aftersun.jpg"
+        },
+        {
+            "id": 43,
+            "title": "pulp fiction",
+            "src": "/movies/pulp.jpg"
+        },
+        {
+            "id": 44,
+            "title": "taxi driver",
+            "src": "/movies/taxi.jpg"
+        },
+        {
+            "id": 45,
+            "title": "incendies",
+            "src": "/movies/incendies.jpg"
+        },
+        {
+            "id": 46,
+            "title": "there will be blood",
+            "src": "/movies/milkshake.jpg"
+        },
+        { 
+            "id": 47,
+            "title": "portrait of a lady on fire",
+            "src": "/movies/lady_on_fire.jpg"
+        },
+        {
+            "id": 48,
+            "title": "memories of murder",
+            "src": "/movies/memories_of_murder.jpg"
+        },
+        {
+            "id": 49,
+            "title": "the end of evangelion",
+            "src": "/movies/evangelion.jpg"
+        },
+        {
+            "id": 50,
+            "title": "taste of cherry",
+            "src": "/movies/cherry.jpg"
+        },
+        {
+            "id": 51,
+            "title": "la haine",
+            "src": "/movies/la_haine.jpg"
+        },
+        {
+            "id": 52,
+            "title": "ran",
+            "src": "/movies/ran.jpg"
+        }
+        
+        
+    ]
+}
