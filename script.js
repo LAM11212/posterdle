@@ -66,7 +66,7 @@ guess.addEventListener('keydown', (event) => {
         }
         event.preventDefault();
         storedString = guess.value;
-        storedString.toLowerCase().trim(); // normalize user input
+        storedString = storedString.toLowerCase().trim(); // normalize user input
         if(storedString === correctTitle) {
             pixelate(img, 120);
             buttonArray[guessCount].style.cssText = "background-color: green;";
