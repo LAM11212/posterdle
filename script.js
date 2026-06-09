@@ -4,12 +4,13 @@ const guess = document.getElementById("guess");
 const header1 = document.querySelector("h1");
 const header2 = document.querySelectorAll("h2");
 const buttonArray = [];
+const nxtbtn = document.getElementById("next");
 const btn1 = document.getElementById("1");
 const btn2 = document.getElementById("2");
 const btn3 = document.getElementById("3");
 const btn4 = document.getElementById("4");
 const btn5 = document.getElementById("5");
-const movies = new Map();
+const seenMovies = new Set();
 let storedString = "";
 let guessCount = 1;
 let fauxguessCount = 1; // used for btns 1-5
@@ -25,9 +26,16 @@ async function generateMovieForTheDay() {
         const response = await fetch('./movies.json');
         if(!response.ok) throw new Error("Network Response Error");
         const data = await response.json();
-        console.log(data);
+        
+        if(seenMovies.size >= data.movies.length) {
+            seenMovies.clear();
+        }
+        let randomMovie;
+        do {
+            randomMovie = pickRandomMovieFromJson(data.movies);
+        } while (seenMovies.has(randomMovie.title));
 
-        const randomMovie = pickRandomMovieFromJson(data.movies);
+        seenMovies.add(randomMovie.title);
 
         img.src = randomMovie.src;
         correctTitle = randomMovie.title;
@@ -67,7 +75,7 @@ guess.addEventListener('keydown', (event) => {
             fauxguessCount = 10;
             pixelate(img, 120);
             createNextButton(); 
-            guess.remove();
+            guess.style.display = "none";
             header1.textContent = "well... you tried i guess, hit next to try another one.";
             header1.style.cssText = "padding-bottom: 40px;"
             for(const head of header2) {
@@ -83,9 +91,9 @@ guess.addEventListener('keydown', (event) => {
             fauxguessCount = 10;
             buttonArray[guessCount].style.cssText = "background-color: green;";
             createNextButton();
-            guess.remove();
+            guess.style.display = "none";
             header1.textContent = "Congrats! You got it, hit next to try another one.";
-            header1.style.cssText = "padding-bottom: 40px;"
+            header1.style.cssText = "padding-bottom: 40px;";
             for(const head of header2) {
                 head.remove();
             }
@@ -106,16 +114,36 @@ function populateButtonArray() {
     }
 }
 
+nxtbtn.addEventListener('click', function() {
+    resetGame();
+});
+
 function createNextButton() {
-    const nxtbtn = document.createElement('button');
     nxtbtn.innerText = 'next';
     nxtbtn.type = 'button';
     nxtbtn.id = 'next';
-    nxtbtn.addEventListener('click', function() {
-       location.reload(); 
-    });
-
+    nxtbtn.style.cssText = "visibility: visible;";
     document.querySelector('.guess-section').appendChild(nxtbtn);
+}
+
+function resetGame() {
+    guessCount = 1;
+    fauxguessCount = 1;
+    pixelationScale = 3;
+    guess.value = "";
+    guess.style.display = "block";
+
+    header1.textContent = "Guess the Movie!";
+    header1.style.cssText = "";
+
+    for(let i = 1; i <= 5; i++) {
+        buttonArray[i].style.backgroundColor = "";
+    }
+    if(nxtbtn) {
+        nxtbtn.remove();
+    }
+
+    generateMovieForTheDay();
 }
 
 btn1.addEventListener('click', function() {

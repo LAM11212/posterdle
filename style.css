@@ -58,6 +58,7 @@ h2 {
 
 .guess-section button {
     display: block;
+    visibility: hidden;
 }
 
 .box-section {

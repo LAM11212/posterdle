@@ -113,8 +113,8 @@
 
         { 
             "id": 23,
-            "title": "hamnet",
-            "src": "./movies/hamnet.jpg"
+            "title": "dune part 2",
+            "src": "./movies/dune_2.jpg"
         },
         {
             "id": 24,
@@ -138,8 +138,8 @@
         },
         {
             "id": 28,
-            "title": "first reformed",
-            "src": "./movies/first_reformed.jpg"
+            "title": "dune",
+            "src": "./movies/dune.jpg"
         },
         { 
             "id": 29,
@@ -201,10 +201,6 @@
             "title": "persona",
             "src": "./movies/persona.jpg"
         },
-
-
-
-
         { 
             "id": 41,
             "title": "the seventh seal",
@@ -264,8 +260,46 @@
             "id": 52,
             "title": "ran",
             "src": "./movies/ran.jpg"
+        },
+        {
+            "id": 53,
+            "title": "solaris",
+            "src": "./movies/solaris.jpg"
+        },
+        { 
+            "id": 54,
+            "title": "mirror",
+            "src": "./movies/mirror.jpg"
+        },
+        {
+            "id": 55,
+            "title": "12 angry men",
+            "src": "./movies/angry.jpg"
+        },
+        {
+            "id": 56,
+            "title": "seven",
+            "src": "./movies/seven.jpg"
+        },
+        {
+            "id": 57,
+            "title": "a clockwork orange",
+            "src": "./movies/clockwork_orange.jpg"
+        },
+        {
+            "id": 58,
+            "title": "casablanca",
+            "src": "./movies/casablanca.jpg"
+        },
+        {
+            "id": 59,
+            "title": "akira",
+            "src": "./movies/akira.jpg"
+        },
+        {
+            "id": 60,
+            "title": "blade runner",
+            "src": "./movies/bladerunner.jpg"
         }
-        
-        
     ]
 }
