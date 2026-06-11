@@ -87,8 +87,8 @@
         },
         {
             "id": 18,
-            "title": "nosferatu",
-            "src": "./movies/nosferatu.jpg"
+            "title": "la la land",
+            "src": "./movies/lalaland.jpg"
         },
         {
             "id": 19,
@@ -123,13 +123,13 @@
         },
         {
             "id": 25,
-            "title": "the banshees of inisherin",
-            "src": "./movies/the_banshees_of_inisherin.jpg"
+            "title": "all about lily chou-chou",
+            "src": "./movies/chou-chou.jpg"
         },
         {
             "id": 26,
-            "title": "morbius",
-            "src": "./movies/morbius.jpg"
+            "title": "kpop demon hunters",
+            "src": "./movies/kpop.jpg"
         },
         {
             "id": 27,
@@ -283,7 +283,7 @@
         },
         {
             "id": 57,
-            "title": "a clockwork orange",
+            "title": "clockwork orange",
             "src": "./movies/clockwork_orange.jpg"
         },
         {
@@ -350,6 +350,36 @@
             "id": 70,
             "title": "through a glass darkly",
             "src": "./movies/glass_darkly.jpg"
+        },
+        {
+            "id": 71,
+            "title": "spirited away",
+            "src": "./movies/spirited_away.jpg"
+        },
+        {
+            "id": 72,
+            "title": "howls moving castle",
+            "src": "./movies/howls_moving_castle.jpg"
+        },
+        {
+            "id": 73,
+            "title": "nausicaa of the valley of the wind",
+            "src": "./movies/nausicaa.jpg"
+        },
+        {
+            "id": 74,
+            "title": "princess mononoke",
+            "src": "./movies/mononoke.jpg"
+        },
+        {
+            "id": 75,
+            "title": "the boy and the heron",
+            "src": "./movies/boy_and_heron.jpg"
+        },
+        {
+            "id": 76,
+            "title": "grave of the fireflies",
+            "src": "./movies/grave_fireflies.jpg"
         }
     ]
 }

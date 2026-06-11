@@ -26,7 +26,6 @@ async function generateMovieForTheDay() {
         const response = await fetch('./movies.json');
         if(!response.ok) throw new Error("Network Response Error");
         const data = await response.json();
-        
         if(seenMovies.size >= data.movies.length) {
             seenMovies.clear();
         }
