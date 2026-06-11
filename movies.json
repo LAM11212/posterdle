@@ -113,7 +113,7 @@
 
         { 
             "id": 23,
-            "title": "dune part 2",
+            "title": "dune part two",
             "src": "./movies/dune_2.jpg"
         },
         {
@@ -133,8 +133,8 @@
         },
         {
             "id": 27,
-            "title": "parasite",
-            "src": "./movies/parasite.jpg"
+            "title": "the dark knight",
+            "src": "./movies/dark_knight.jpg"
         },
         {
             "id": 28,
