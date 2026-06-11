@@ -300,6 +300,56 @@
             "id": 60,
             "title": "blade runner",
             "src": "./movies/bladerunner.jpg"
+        },
+        {
+            "id": 61,
+            "title": "a silent voice",
+            "src": "./movies/silent.jpg"
+        },
+        {
+            "id": 62,
+            "title": "the book of life",
+            "src": "./movies/book_of_life.jpg"
+        },
+        {
+            "id": 63,
+            "title": "the fly",
+            "src": "./movies/the_fly.jpg"
+        },
+        {
+            "id": 64,
+            "title": "videodrome",
+            "src": "./movies/videodrome.jpg"
+        },
+        {
+            "id": 65,
+            "title": "alien",
+            "src": "./movies/alien.jpg"
+        },
+        {
+            "id": 66,
+            "title": "martyrs",
+            "src": "./movies/martyrs.jpg"
+        },
+        {
+            "id": 67,
+            "title": "ghost in the shell",
+            "src": "./movies/ghost_in_the_shell.jpg"
+        },
+        {
+            "id": 68,
+            "title": "perfect blue",
+            "src": "./movies/perfect_blue.jpg"
+        },
+        {
+            "id": 69,
+            "title": "redline",
+            "src": "./movies/redline.jpg"
+        },
+        {
+            "id": 70,
+            "title": "through a glass darkly",
+            "src": "./movies/glass_darkly.jpg"
         }
     ]
 }
