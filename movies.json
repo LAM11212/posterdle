@@ -380,6 +380,11 @@
             "id": 76,
             "title": "grave of the fireflies",
             "src": "./movies/grave_fireflies.jpg"
+        },
+        {
+            "id": 76,
+            "title": "the sacrifice",
+            "src": "./movies/sacrifice.jpg"
         }
     ]
 }
