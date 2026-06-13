@@ -70,21 +70,22 @@ function pixelate(img, factor) {
 
 guess.addEventListener('keydown', (event) => {
     if(event.key === 'Enter') {
-        if(guessCount > 5) {
+        event.preventDefault();
+        storedString = guess.value;
+        storedString = storedString.toLowerCase().trim(); // normalize user input
+        if(guessCount > 4 && storedString !== correctTitle) {
             fauxguessCount = 10;
             pixelate(img, 120);
             createNextButton(); 
             guess.style.display = "none";
             header1.textContent = "well... you tried i guess, hit next to try another one.";
             header1.style.cssText = "padding-bottom: 40px;"
+            btn5.style.cssText = "background-color: red;";
             for(const head of header2) {
                 head.remove();
             }
             return;
         }
-        event.preventDefault();
-        storedString = guess.value;
-        storedString = storedString.toLowerCase().trim(); // normalize user input
         if(storedString === correctTitle) {
             pixelate(img, 120);
             fauxguessCount = 10;
